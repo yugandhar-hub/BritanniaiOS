@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7603757C3B49B0D0BE140D89 /* Pods_BritanniaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E05A933503BD87010641CC7 /* Pods_BritanniaTests.framework */; };
+		8482F52C25E16D7E00E17E1D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8482F52B25E16D7E00E17E1D /* SWRevealViewController.m */; };
+		8482F53425E17C7200E17E1D /* AddReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482F53325E17C7200E17E1D /* AddReportViewController.swift */; };
+		8482F53F25E1C65F00E17E1D /* ReportWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482F53E25E1C65F00E17E1D /* ReportWebViewController.swift */; };
+		8493703725E2600F0095327F /* DeleteReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8493703625E2600F0095327F /* DeleteReportViewController.swift */; };
 		84953E1F25DBA99A004C520E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84953E1E25DBA99A004C520E /* AppDelegate.swift */; };
 		84953E2125DBA99A004C520E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84953E2025DBA99A004C520E /* SceneDelegate.swift */; };
-		84953E2325DBA99A004C520E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84953E2225DBA99A004C520E /* ViewController.swift */; };
+		84953E2325DBA99A004C520E /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84953E2225DBA99A004C520E /* ReportViewController.swift */; };
 		84953E2625DBA99A004C520E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84953E2425DBA99A004C520E /* Main.storyboard */; };
 		84953E2825DBA99B004C520E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84953E2725DBA99B004C520E /* Assets.xcassets */; };
 		84953E2B25DBA99B004C520E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84953E2925DBA99B004C520E /* LaunchScreen.storyboard */; };
 		84953E3625DBA99B004C520E /* BritanniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84953E3525DBA99B004C520E /* BritanniaTests.swift */; };
 		84953E4125DBA99B004C520E /* BritanniaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84953E4025DBA99B004C520E /* BritanniaUITests.swift */; };
+		84953E5725DC2BD2004C520E /* DropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 84953E5525DC2BD2004C520E /* DropDown.m */; };
+		84953E6925DC2CD6004C520E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84953E6825DC2CD6004C520E /* APIService.swift */; };
+		8ABCA8246457550359C9A39F /* Pods_Britannia_BritanniaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46DD3075620B9F785A4CAEC /* Pods_Britannia_BritanniaUITests.framework */; };
+		B848FF1DB1FE82A5511EBF85 /* Pods_Britannia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278E462341EDA1DCE27A1B7A /* Pods_Britannia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +44,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		278E462341EDA1DCE27A1B7A /* Pods_Britannia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Britannia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4375876794E8724C21E60A92 /* Pods-Britannia-BritanniaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Britannia-BritanniaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Britannia-BritanniaUITests/Pods-Britannia-BritanniaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		65FB48A50FEB107654554235 /* Pods-BritanniaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BritanniaTests.release.xcconfig"; path = "Target Support Files/Pods-BritanniaTests/Pods-BritanniaTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B376069A6B75464A6591293 /* Pods-BritanniaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BritanniaTests.debug.xcconfig"; path = "Target Support Files/Pods-BritanniaTests/Pods-BritanniaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8482F52A25E16D7E00E17E1D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		8482F52B25E16D7E00E17E1D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		8482F53325E17C7200E17E1D /* AddReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReportViewController.swift; sourceTree = "<group>"; };
+		8482F53E25E1C65F00E17E1D /* ReportWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportWebViewController.swift; sourceTree = "<group>"; };
+		8493703625E2600F0095327F /* DeleteReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteReportViewController.swift; sourceTree = "<group>"; };
 		84953E1B25DBA99A004C520E /* Britannia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Britannia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84953E1E25DBA99A004C520E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84953E2025DBA99A004C520E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84953E2225DBA99A004C520E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84953E2225DBA99A004C520E /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 		84953E2525DBA99A004C520E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84953E2725DBA99B004C520E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84953E2A25DBA99B004C520E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +67,15 @@
 		84953E3C25DBA99B004C520E /* BritanniaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BritanniaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84953E4025DBA99B004C520E /* BritanniaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BritanniaUITests.swift; sourceTree = "<group>"; };
 		84953E4225DBA99B004C520E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84953E5425DC2BD1004C520E /* Britannia-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Britannia-Bridging-Header.h"; sourceTree = "<group>"; };
+		84953E5525DC2BD2004C520E /* DropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDown.m; sourceTree = "<group>"; };
+		84953E5625DC2BD2004C520E /* DropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDown.h; sourceTree = "<group>"; };
+		84953E6825DC2CD6004C520E /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIService.swift; path = APIs/APIService.swift; sourceTree = "<group>"; };
+		919F20372AF42DDAF7CB5B24 /* Pods-Britannia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Britannia.release.xcconfig"; path = "Target Support Files/Pods-Britannia/Pods-Britannia.release.xcconfig"; sourceTree = "<group>"; };
+		9E05A933503BD87010641CC7 /* Pods_BritanniaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BritanniaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46DD3075620B9F785A4CAEC /* Pods_Britannia_BritanniaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Britannia_BritanniaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49A52B7059AD9387062FF50 /* Pods-Britannia-BritanniaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Britannia-BritanniaUITests.release.xcconfig"; path = "Target Support Files/Pods-Britannia-BritanniaUITests/Pods-Britannia-BritanniaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C847B896E825128E03F595BB /* Pods-Britannia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Britannia.debug.xcconfig"; path = "Target Support Files/Pods-Britannia/Pods-Britannia.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B848FF1DB1FE82A5511EBF85 /* Pods_Britannia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7603757C3B49B0D0BE140D89 /* Pods_BritanniaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +99,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ABCA8246457550359C9A39F /* Pods_Britannia_BritanniaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E74C4D5ED62B4298B8C0357 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				278E462341EDA1DCE27A1B7A /* Pods_Britannia.framework */,
+				A46DD3075620B9F785A4CAEC /* Pods_Britannia_BritanniaUITests.framework */,
+				9E05A933503BD87010641CC7 /* Pods_BritanniaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48FEC5E9374F6C3C6C1F896F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C847B896E825128E03F595BB /* Pods-Britannia.debug.xcconfig */,
+				919F20372AF42DDAF7CB5B24 /* Pods-Britannia.release.xcconfig */,
+				4375876794E8724C21E60A92 /* Pods-Britannia-BritanniaUITests.debug.xcconfig */,
+				A49A52B7059AD9387062FF50 /* Pods-Britannia-BritanniaUITests.release.xcconfig */,
+				7B376069A6B75464A6591293 /* Pods-BritanniaTests.debug.xcconfig */,
+				65FB48A50FEB107654554235 /* Pods-BritanniaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8482F52925E16D7E00E17E1D /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8482F52A25E16D7E00E17E1D /* SWRevealViewController.h */,
+				8482F52B25E16D7E00E17E1D /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
 		84953E1225DBA999004C520E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +145,8 @@
 				84953E3425DBA99B004C520E /* BritanniaTests */,
 				84953E3F25DBA99B004C520E /* BritanniaUITests */,
 				84953E1C25DBA99A004C520E /* Products */,
+				48FEC5E9374F6C3C6C1F896F /* Pods */,
+				3E74C4D5ED62B4298B8C0357 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +163,11 @@
 		84953E1D25DBA99A004C520E /* Britannia */ = {
 			isa = PBXGroup;
 			children = (
+				84953E6825DC2CD6004C520E /* APIService.swift */,
+				84953E5B25DC2C5D004C520E /* Controller */,
+				84953E5325DC2B9C004C520E /* Library */,
 				84953E1E25DBA99A004C520E /* AppDelegate.swift */,
 				84953E2025DBA99A004C520E /* SceneDelegate.swift */,
-				84953E2225DBA99A004C520E /* ViewController.swift */,
 				84953E2425DBA99A004C520E /* Main.storyboard */,
 				84953E2725DBA99B004C520E /* Assets.xcassets */,
 				84953E2925DBA99B004C520E /* LaunchScreen.storyboard */,
@@ -128,6 +194,28 @@
 			path = BritanniaUITests;
 			sourceTree = "<group>";
 		};
+		84953E5325DC2B9C004C520E /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8482F52925E16D7E00E17E1D /* SWRevealViewController */,
+				84953E5625DC2BD2004C520E /* DropDown.h */,
+				84953E5525DC2BD2004C520E /* DropDown.m */,
+				84953E5425DC2BD1004C520E /* Britannia-Bridging-Header.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		84953E5B25DC2C5D004C520E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84953E2225DBA99A004C520E /* ReportViewController.swift */,
+				8482F53325E17C7200E17E1D /* AddReportViewController.swift */,
+				8482F53E25E1C65F00E17E1D /* ReportWebViewController.swift */,
+				8493703625E2600F0095327F /* DeleteReportViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +223,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84953E4525DBA99B004C520E /* Build configuration list for PBXNativeTarget "Britannia" */;
 			buildPhases = (
+				091DA781D7ABC71BEBDA8529 /* [CP] Check Pods Manifest.lock */,
 				84953E1725DBA99A004C520E /* Sources */,
 				84953E1825DBA99A004C520E /* Frameworks */,
 				84953E1925DBA99A004C520E /* Resources */,
@@ -152,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84953E4825DBA99B004C520E /* Build configuration list for PBXNativeTarget "BritanniaTests" */;
 			buildPhases = (
+				E81A388B7DEFBC119D0EB702 /* [CP] Check Pods Manifest.lock */,
 				84953E2D25DBA99B004C520E /* Sources */,
 				84953E2E25DBA99B004C520E /* Frameworks */,
 				84953E2F25DBA99B004C520E /* Resources */,
@@ -170,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84953E4B25DBA99B004C520E /* Build configuration list for PBXNativeTarget "BritanniaUITests" */;
 			buildPhases = (
+				2310AC14C7C9E1F13D73534D /* [CP] Check Pods Manifest.lock */,
 				84953E3825DBA99B004C520E /* Sources */,
 				84953E3925DBA99B004C520E /* Frameworks */,
 				84953E3A25DBA99B004C520E /* Resources */,
@@ -195,6 +286,7 @@
 				TargetAttributes = {
 					84953E1A25DBA99A004C520E = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					84953E3025DBA99B004C520E = {
 						CreatedOnToolsVersion = 12.4;
@@ -253,14 +345,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		091DA781D7ABC71BEBDA8529 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Britannia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2310AC14C7C9E1F13D73534D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Britannia-BritanniaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E81A388B7DEFBC119D0EB702 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BritanniaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84953E1725DBA99A004C520E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84953E2325DBA99A004C520E /* ViewController.swift in Sources */,
+				8493703725E2600F0095327F /* DeleteReportViewController.swift in Sources */,
+				84953E2325DBA99A004C520E /* ReportViewController.swift in Sources */,
+				8482F53F25E1C65F00E17E1D /* ReportWebViewController.swift in Sources */,
 				84953E1F25DBA99A004C520E /* AppDelegate.swift in Sources */,
+				84953E5725DC2BD2004C520E /* DropDown.m in Sources */,
 				84953E2125DBA99A004C520E /* SceneDelegate.swift in Sources */,
+				84953E6925DC2CD6004C520E /* APIService.swift in Sources */,
+				8482F52C25E16D7E00E17E1D /* SWRevealViewController.m in Sources */,
+				8482F53425E17C7200E17E1D /* AddReportViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,17 +600,24 @@
 		};
 		84953E4625DBA99B004C520E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C847B896E825128E03F595BB /* Pods-Britannia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABMPXK9C6B;
+				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = Britannia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.Britannia;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.Britannia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Britannia/Library/Britannia-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,17 +625,23 @@
 		};
 		84953E4725DBA99B004C520E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 919F20372AF42DDAF7CB5B24 /* Pods-Britannia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABMPXK9C6B;
+				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = Britannia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.Britannia;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.Britannia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Britannia/Library/Britannia-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -469,6 +649,7 @@
 		};
 		84953E4925DBA99B004C520E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B376069A6B75464A6591293 /* Pods-BritanniaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +671,7 @@
 		};
 		84953E4A25DBA99B004C520E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65FB48A50FEB107654554235 /* Pods-BritanniaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +693,7 @@
 		};
 		84953E4C25DBA99B004C520E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4375876794E8724C21E60A92 /* Pods-Britannia-BritanniaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +713,7 @@
 		};
 		84953E4D25DBA99B004C520E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49A52B7059AD9387062FF50 /* Pods-Britannia-BritanniaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
