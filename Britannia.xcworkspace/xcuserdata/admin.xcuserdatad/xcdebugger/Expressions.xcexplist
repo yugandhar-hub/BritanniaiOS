@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__pthread_kill:(null)">
+         <PersistentStrings>
+            <PersistentString
+               value = "urlStr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ReportWebViewController.webView(_:didFinish:):ReportWebViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "print(webView.url?.absoluteString)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "APIService.connect(name:parameters:completion:):APIService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "print(String(data: request.httpBody, encoding: .utf8))">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in APIService.connect(name:parameters:completion:):APIService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "re">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ReportWebViewController.viewDidLoad():ReportWebViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "print(urlString)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ReportWebViewController.webView(_:didReceive:completionHandler:):ReportWebViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "print(webView.url?.absoluteString)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

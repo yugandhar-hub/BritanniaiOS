@@ -1,0 +1,6 @@
+framework module Pods_Britannia_BritanniaUITests {
+  umbrella header "Pods-Britannia-BritanniaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
